@@ -29,19 +29,18 @@ namespace UF200Simulation
 
 		}
 
-		private void label1_Click(object sender, EventArgs e)
+		private void custButton3_Click(object sender, EventArgs e)
 		{
+			//InputForm inputForm = new InputForm();
+			//inputForm.TitleText = "Device";
 
-		}
+			//inputForm.StartPosition = FormStartPosition.CenterParent;
 
-		private void label13_Click(object sender, EventArgs e)
-		{
+			//inputForm.ShowDialog(this);
+			DeviceForm deviceForm = new DeviceForm();
+			deviceForm.StartPosition = FormStartPosition.CenterParent;
 
-		}
-
-		private void label12_Click(object sender, EventArgs e)
-		{
-
+			deviceForm.ShowDialog(this);
 		}
 	}
 }

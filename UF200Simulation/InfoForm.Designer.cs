@@ -95,6 +95,12 @@
 			this.label38 = new System.Windows.Forms.Label();
 			this.label37 = new System.Windows.Forms.Label();
 			this.pinkGroupBox1 = new Components.PinkGroupBox(this.components);
+			this.label65 = new System.Windows.Forms.Label();
+			this.label64 = new System.Windows.Forms.Label();
+			this.label63 = new System.Windows.Forms.Label();
+			this.label62 = new System.Windows.Forms.Label();
+			this.label61 = new System.Windows.Forms.Label();
+			this.label60 = new System.Windows.Forms.Label();
 			this.custButton6 = new Components.CustButton(this.components);
 			this.custButton7 = new Components.CustButton(this.components);
 			this.custButton8 = new Components.CustButton(this.components);
@@ -105,14 +111,8 @@
 			this.label59 = new System.Windows.Forms.Label();
 			this.custButton13 = new Components.CustButton(this.components);
 			this.yellowGroupBox1 = new Components.YellowGroupBox(this.components);
-			this.custButton14 = new Components.CustButton(this.components);
 			this.custButton15 = new Components.CustButton(this.components);
-			this.label60 = new System.Windows.Forms.Label();
-			this.label61 = new System.Windows.Forms.Label();
-			this.label62 = new System.Windows.Forms.Label();
-			this.label63 = new System.Windows.Forms.Label();
-			this.label64 = new System.Windows.Forms.Label();
-			this.label65 = new System.Windows.Forms.Label();
+			this.custButton14 = new Components.CustButton(this.components);
 			this.greenGroupBox1.SuspendLayout();
 			this.pinkGroupBox1.SuspendLayout();
 			this.yellowGroupBox1.SuspendLayout();
@@ -126,7 +126,6 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(310, 3);
 			this.label1.TabIndex = 0;
-			this.label1.Click += new System.EventHandler(this.label1_Click);
 			// 
 			// label2
 			// 
@@ -253,7 +252,6 @@
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(320, 3);
 			this.label12.TabIndex = 11;
-			this.label12.Click += new System.EventHandler(this.label12_Click);
 			// 
 			// label13
 			// 
@@ -264,7 +262,6 @@
 			this.label13.Size = new System.Drawing.Size(140, 14);
 			this.label13.TabIndex = 12;
 			this.label13.Text = "Lot Set information";
-			this.label13.Click += new System.EventHandler(this.label13_Click);
 			// 
 			// label14
 			// 
@@ -672,6 +669,7 @@
 			this.custButton3.TabIndex = 58;
 			this.custButton3.Text = "PROBER\r\nMODE\r\nSETTINGS";
 			this.custButton3.UseVisualStyleBackColor = false;
+			this.custButton3.Click += new System.EventHandler(this.custButton3_Click);
 			// 
 			// custButton2
 			// 
@@ -809,6 +807,66 @@
 			this.pinkGroupBox1.TabStop = false;
 			this.pinkGroupBox1.Text = "User\'S Field";
 			// 
+			// label65
+			// 
+			this.label65.ForeColor = System.Drawing.Color.Teal;
+			this.label65.Location = new System.Drawing.Point(196, 92);
+			this.label65.Name = "label65";
+			this.label65.Size = new System.Drawing.Size(157, 20);
+			this.label65.TabIndex = 64;
+			this.label65.Text = "GP-IB";
+			this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label64
+			// 
+			this.label64.ForeColor = System.Drawing.Color.Teal;
+			this.label64.Location = new System.Drawing.Point(330, 57);
+			this.label64.Name = "label64";
+			this.label64.Size = new System.Drawing.Size(157, 20);
+			this.label64.TabIndex = 63;
+			this.label64.Text = "500 um";
+			this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label63
+			// 
+			this.label63.ForeColor = System.Drawing.Color.Teal;
+			this.label63.Location = new System.Drawing.Point(330, 19);
+			this.label63.Name = "label63";
+			this.label63.Size = new System.Drawing.Size(157, 20);
+			this.label63.TabIndex = 62;
+			this.label63.Text = "0  um";
+			this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label62
+			// 
+			this.label62.ForeColor = System.Drawing.Color.Teal;
+			this.label62.Location = new System.Drawing.Point(6, 92);
+			this.label62.Name = "label62";
+			this.label62.Size = new System.Drawing.Size(157, 20);
+			this.label62.TabIndex = 61;
+			this.label62.Text = "Method Of External Control";
+			this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// label61
+			// 
+			this.label61.ForeColor = System.Drawing.Color.Teal;
+			this.label61.Location = new System.Drawing.Point(6, 57);
+			this.label61.Name = "label61";
+			this.label61.Size = new System.Drawing.Size(157, 20);
+			this.label61.TabIndex = 60;
+			this.label61.Text = "Clearance";
+			this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// label60
+			// 
+			this.label60.ForeColor = System.Drawing.Color.Teal;
+			this.label60.Location = new System.Drawing.Point(6, 19);
+			this.label60.Name = "label60";
+			this.label60.Size = new System.Drawing.Size(157, 20);
+			this.label60.TabIndex = 59;
+			this.label60.Text = "Probing Overdrive";
+			this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
 			// custButton6
 			// 
 			this.custButton6.BackColor = System.Drawing.Color.Black;
@@ -928,18 +986,6 @@
 			this.yellowGroupBox1.TabStop = false;
 			this.yellowGroupBox1.Text = "User\'S SW";
 			// 
-			// custButton14
-			// 
-			this.custButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton14.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton14.ForeColor = System.Drawing.Color.White;
-			this.custButton14.Location = new System.Drawing.Point(6, 22);
-			this.custButton14.Name = "custButton14";
-			this.custButton14.Size = new System.Drawing.Size(95, 65);
-			this.custButton14.TabIndex = 80;
-			this.custButton14.Text = "PROBER\r\nMODE\r\nSETTINGS";
-			this.custButton14.UseVisualStyleBackColor = false;
-			// 
 			// custButton15
 			// 
 			this.custButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
@@ -952,65 +998,17 @@
 			this.custButton15.Text = "PROBER\r\nMODE\r\nSETTINGS";
 			this.custButton15.UseVisualStyleBackColor = false;
 			// 
-			// label60
+			// custButton14
 			// 
-			this.label60.ForeColor = System.Drawing.Color.Teal;
-			this.label60.Location = new System.Drawing.Point(6, 19);
-			this.label60.Name = "label60";
-			this.label60.Size = new System.Drawing.Size(157, 20);
-			this.label60.TabIndex = 59;
-			this.label60.Text = "Probing Overdrive";
-			this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label61
-			// 
-			this.label61.ForeColor = System.Drawing.Color.Teal;
-			this.label61.Location = new System.Drawing.Point(6, 57);
-			this.label61.Name = "label61";
-			this.label61.Size = new System.Drawing.Size(157, 20);
-			this.label61.TabIndex = 60;
-			this.label61.Text = "Clearance";
-			this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label62
-			// 
-			this.label62.ForeColor = System.Drawing.Color.Teal;
-			this.label62.Location = new System.Drawing.Point(6, 92);
-			this.label62.Name = "label62";
-			this.label62.Size = new System.Drawing.Size(157, 20);
-			this.label62.TabIndex = 61;
-			this.label62.Text = "Method Of External Control";
-			this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label63
-			// 
-			this.label63.ForeColor = System.Drawing.Color.Teal;
-			this.label63.Location = new System.Drawing.Point(330, 19);
-			this.label63.Name = "label63";
-			this.label63.Size = new System.Drawing.Size(157, 20);
-			this.label63.TabIndex = 62;
-			this.label63.Text = "0  um";
-			this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// label64
-			// 
-			this.label64.ForeColor = System.Drawing.Color.Teal;
-			this.label64.Location = new System.Drawing.Point(330, 57);
-			this.label64.Name = "label64";
-			this.label64.Size = new System.Drawing.Size(157, 20);
-			this.label64.TabIndex = 63;
-			this.label64.Text = "500 um";
-			this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// label65
-			// 
-			this.label65.ForeColor = System.Drawing.Color.Teal;
-			this.label65.Location = new System.Drawing.Point(196, 92);
-			this.label65.Name = "label65";
-			this.label65.Size = new System.Drawing.Size(157, 20);
-			this.label65.TabIndex = 64;
-			this.label65.Text = "GP-IB";
-			this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.custButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton14.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton14.ForeColor = System.Drawing.Color.White;
+			this.custButton14.Location = new System.Drawing.Point(6, 22);
+			this.custButton14.Name = "custButton14";
+			this.custButton14.Size = new System.Drawing.Size(95, 65);
+			this.custButton14.TabIndex = 80;
+			this.custButton14.Text = "PROBER\r\nMODE\r\nSETTINGS";
+			this.custButton14.UseVisualStyleBackColor = false;
 			// 
 			// InfoForm
 			// 
@@ -1086,6 +1084,7 @@
 			this.Controls.Add(this.label1);
 			this.Font = new System.Drawing.Font("宋体", 10F);
 			this.ForeColor = System.Drawing.Color.Black;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "InfoForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
