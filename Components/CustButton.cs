@@ -1,19 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace UF200Simulation
+namespace Components
 {
-	public partial class BoldButton : Button
+	public partial class CustButton : Button
 	{
-		public BoldButton()
+		public CustButton()
 		{
+			InitializeComponent();
+		}
+
+		public CustButton(IContainer container)
+		{
+			container.Add(this);
+
 			InitializeComponent();
 		}
 		protected override void OnPaint(PaintEventArgs e)

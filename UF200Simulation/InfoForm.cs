@@ -23,6 +23,25 @@ namespace UF200Simulation
 			//childForm.StartPosition = FormStartPosition.CenterParent;
 			//childForm.Show();
 		}
-		
+
+		private void InfoForm_Load(object sender, EventArgs e)
+		{
+
+		}
+
+		private void label1_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void label13_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void label12_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
