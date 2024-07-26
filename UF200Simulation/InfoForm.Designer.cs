@@ -40,7 +40,7 @@
 			this.label8 = new System.Windows.Forms.Label();
 			this.label9 = new System.Windows.Forms.Label();
 			this.label10 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
+			this.lblTime = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
@@ -49,7 +49,7 @@
 			this.label17 = new System.Windows.Forms.Label();
 			this.label18 = new System.Windows.Forms.Label();
 			this.label19 = new System.Windows.Forms.Label();
-			this.label30 = new System.Windows.Forms.Label();
+			this.lblDevice = new System.Windows.Forms.Label();
 			this.label31 = new System.Windows.Forms.Label();
 			this.label20 = new System.Windows.Forms.Label();
 			this.label21 = new System.Windows.Forms.Label();
@@ -80,6 +80,25 @@
 			this.label56 = new System.Windows.Forms.Label();
 			this.label57 = new System.Windows.Forms.Label();
 			this.label58 = new System.Windows.Forms.Label();
+			this.label59 = new System.Windows.Forms.Label();
+			this.yellowGroupBox1 = new Components.YellowGroupBox(this.components);
+			this.custButton15 = new Components.CustButton(this.components);
+			this.custButton14 = new Components.CustButton(this.components);
+			this.custButton13 = new Components.CustButton(this.components);
+			this.custButton12 = new Components.CustButton(this.components);
+			this.custButton11 = new Components.CustButton(this.components);
+			this.custButton10 = new Components.CustButton(this.components);
+			this.custButton9 = new Components.CustButton(this.components);
+			this.custButton8 = new Components.CustButton(this.components);
+			this.custButton7 = new Components.CustButton(this.components);
+			this.custButton6 = new Components.CustButton(this.components);
+			this.pinkGroupBox1 = new Components.PinkGroupBox(this.components);
+			this.label65 = new System.Windows.Forms.Label();
+			this.label64 = new System.Windows.Forms.Label();
+			this.label63 = new System.Windows.Forms.Label();
+			this.label62 = new System.Windows.Forms.Label();
+			this.label61 = new System.Windows.Forms.Label();
+			this.label60 = new System.Windows.Forms.Label();
 			this.custButton5 = new Components.CustButton(this.components);
 			this.custButton4 = new Components.CustButton(this.components);
 			this.custButton3 = new Components.CustButton(this.components);
@@ -94,28 +113,9 @@
 			this.label40 = new System.Windows.Forms.Label();
 			this.label38 = new System.Windows.Forms.Label();
 			this.label37 = new System.Windows.Forms.Label();
-			this.pinkGroupBox1 = new Components.PinkGroupBox(this.components);
-			this.label65 = new System.Windows.Forms.Label();
-			this.label64 = new System.Windows.Forms.Label();
-			this.label63 = new System.Windows.Forms.Label();
-			this.label62 = new System.Windows.Forms.Label();
-			this.label61 = new System.Windows.Forms.Label();
-			this.label60 = new System.Windows.Forms.Label();
-			this.custButton6 = new Components.CustButton(this.components);
-			this.custButton7 = new Components.CustButton(this.components);
-			this.custButton8 = new Components.CustButton(this.components);
-			this.custButton9 = new Components.CustButton(this.components);
-			this.custButton10 = new Components.CustButton(this.components);
-			this.custButton11 = new Components.CustButton(this.components);
-			this.custButton12 = new Components.CustButton(this.components);
-			this.label59 = new System.Windows.Forms.Label();
-			this.custButton13 = new Components.CustButton(this.components);
-			this.yellowGroupBox1 = new Components.YellowGroupBox(this.components);
-			this.custButton15 = new Components.CustButton(this.components);
-			this.custButton14 = new Components.CustButton(this.components);
-			this.greenGroupBox1.SuspendLayout();
-			this.pinkGroupBox1.SuspendLayout();
 			this.yellowGroupBox1.SuspendLayout();
+			this.pinkGroupBox1.SuspendLayout();
+			this.greenGroupBox1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -193,6 +193,7 @@
 			this.label7.TabIndex = 6;
 			this.label7.Text = "......";
 			this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+			this.label7.Click += new System.EventHandler(this.label7_Click);
 			// 
 			// label8
 			// 
@@ -231,18 +232,18 @@
 			this.label10.Text = "Ver. S6.43.00";
 			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// label11
+			// lblTime
 			// 
-			this.label11.BackColor = System.Drawing.Color.Black;
-			this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label11.Font = new System.Drawing.Font("宋体", 9F);
-			this.label11.ForeColor = System.Drawing.Color.White;
-			this.label11.Location = new System.Drawing.Point(863, 1);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(143, 23);
-			this.label11.TabIndex = 10;
-			this.label11.Text = "MAY/11/2023 17:05";
-			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.lblTime.BackColor = System.Drawing.Color.Black;
+			this.lblTime.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.lblTime.Font = new System.Drawing.Font("宋体", 9F);
+			this.lblTime.ForeColor = System.Drawing.Color.White;
+			this.lblTime.Location = new System.Drawing.Point(863, 1);
+			this.lblTime.Name = "lblTime";
+			this.lblTime.Size = new System.Drawing.Size(143, 23);
+			this.lblTime.TabIndex = 10;
+			this.lblTime.Text = "MAY/11/2023 17:05";
+			this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label12
 			// 
@@ -320,16 +321,16 @@
 			this.label19.Text = "inch";
 			this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// label30
+			// lblDevice
 			// 
-			this.label30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label30.ForeColor = System.Drawing.Color.Teal;
-			this.label30.Location = new System.Drawing.Point(241, 150);
-			this.label30.Name = "label30";
-			this.label30.Size = new System.Drawing.Size(240, 21);
-			this.label30.TabIndex = 38;
-			this.label30.Text = "SPQ2R4N-4SGA-2K";
-			this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.lblDevice.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.lblDevice.ForeColor = System.Drawing.Color.Teal;
+			this.lblDevice.Location = new System.Drawing.Point(241, 150);
+			this.lblDevice.Name = "lblDevice";
+			this.lblDevice.Size = new System.Drawing.Size(240, 21);
+			this.lblDevice.TabIndex = 38;
+			this.lblDevice.Text = "SPQ2R4N-4SGA-2K";
+			this.lblDevice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label31
 			// 
@@ -634,6 +635,224 @@
 			this.label58.Size = new System.Drawing.Size(848, 3);
 			this.label58.TabIndex = 74;
 			// 
+			// label59
+			// 
+			this.label59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(243)))), ((int)(((byte)(185)))));
+			this.label59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.label59.Font = new System.Drawing.Font("宋体", 11F);
+			this.label59.Location = new System.Drawing.Point(3, 655);
+			this.label59.Name = "label59";
+			this.label59.Size = new System.Drawing.Size(1003, 23);
+			this.label59.TabIndex = 83;
+			this.label59.Text = "Push <START> SW.to start LOT Processing!!";
+			this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// yellowGroupBox1
+			// 
+			this.yellowGroupBox1.Controls.Add(this.custButton15);
+			this.yellowGroupBox1.Controls.Add(this.custButton14);
+			this.yellowGroupBox1.Location = new System.Drawing.Point(645, 465);
+			this.yellowGroupBox1.Name = "yellowGroupBox1";
+			this.yellowGroupBox1.Size = new System.Drawing.Size(200, 90);
+			this.yellowGroupBox1.TabIndex = 85;
+			this.yellowGroupBox1.TabStop = false;
+			this.yellowGroupBox1.Text = "User\'S SW";
+			// 
+			// custButton15
+			// 
+			this.custButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton15.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton15.ForeColor = System.Drawing.Color.White;
+			this.custButton15.Location = new System.Drawing.Point(99, 22);
+			this.custButton15.Name = "custButton15";
+			this.custButton15.Size = new System.Drawing.Size(95, 65);
+			this.custButton15.TabIndex = 81;
+			this.custButton15.Text = "PROBER\r\nMODE\r\nSETTINGS";
+			this.custButton15.UseVisualStyleBackColor = false;
+			// 
+			// custButton14
+			// 
+			this.custButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton14.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton14.ForeColor = System.Drawing.Color.White;
+			this.custButton14.Location = new System.Drawing.Point(6, 22);
+			this.custButton14.Name = "custButton14";
+			this.custButton14.Size = new System.Drawing.Size(95, 65);
+			this.custButton14.TabIndex = 80;
+			this.custButton14.Text = "PROBER\r\nMODE\r\nSETTINGS";
+			this.custButton14.UseVisualStyleBackColor = false;
+			// 
+			// custButton13
+			// 
+			this.custButton13.BackColor = System.Drawing.Color.Lime;
+			this.custButton13.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+			this.custButton13.Location = new System.Drawing.Point(390, 587);
+			this.custButton13.Name = "custButton13";
+			this.custButton13.Size = new System.Drawing.Size(185, 65);
+			this.custButton13.TabIndex = 84;
+			this.custButton13.Text = "START";
+			this.custButton13.UseVisualStyleBackColor = false;
+			// 
+			// custButton12
+			// 
+			this.custButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton12.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton12.ForeColor = System.Drawing.Color.White;
+			this.custButton12.Location = new System.Drawing.Point(714, 587);
+			this.custButton12.Name = "custButton12";
+			this.custButton12.Size = new System.Drawing.Size(95, 65);
+			this.custButton12.TabIndex = 82;
+			this.custButton12.Text = "CLEANING\r\nUNIT\r\nCHANGE";
+			this.custButton12.UseVisualStyleBackColor = false;
+			// 
+			// custButton11
+			// 
+			this.custButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton11.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton11.ForeColor = System.Drawing.Color.White;
+			this.custButton11.Location = new System.Drawing.Point(810, 587);
+			this.custButton11.Name = "custButton11";
+			this.custButton11.Size = new System.Drawing.Size(95, 65);
+			this.custButton11.TabIndex = 81;
+			this.custButton11.Text = "CARD\r\n\r\nCHANGE";
+			this.custButton11.UseVisualStyleBackColor = false;
+			// 
+			// custButton10
+			// 
+			this.custButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(0)))), ((int)(((byte)(238)))));
+			this.custButton10.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton10.ForeColor = System.Drawing.Color.White;
+			this.custButton10.Location = new System.Drawing.Point(906, 587);
+			this.custButton10.Name = "custButton10";
+			this.custButton10.Size = new System.Drawing.Size(95, 65);
+			this.custButton10.TabIndex = 80;
+			this.custButton10.Text = "SYSTEM\r\nMODE\r\nCHANGE";
+			this.custButton10.UseVisualStyleBackColor = false;
+			// 
+			// custButton9
+			// 
+			this.custButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton9.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton9.ForeColor = System.Drawing.Color.White;
+			this.custButton9.Location = new System.Drawing.Point(893, 500);
+			this.custButton9.Name = "custButton9";
+			this.custButton9.Size = new System.Drawing.Size(95, 65);
+			this.custButton9.TabIndex = 79;
+			this.custButton9.Text = "PROBER\r\nMODE\r\nSETTINGS";
+			this.custButton9.UseVisualStyleBackColor = false;
+			// 
+			// custButton8
+			// 
+			this.custButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton8.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton8.ForeColor = System.Drawing.Color.White;
+			this.custButton8.Location = new System.Drawing.Point(294, 587);
+			this.custButton8.Name = "custButton8";
+			this.custButton8.Size = new System.Drawing.Size(95, 65);
+			this.custButton8.TabIndex = 78;
+			this.custButton8.Text = "UTILITY";
+			this.custButton8.UseVisualStyleBackColor = false;
+			// 
+			// custButton7
+			// 
+			this.custButton7.BackColor = System.Drawing.Color.Red;
+			this.custButton7.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton7.ForeColor = System.Drawing.Color.White;
+			this.custButton7.Location = new System.Drawing.Point(198, 587);
+			this.custButton7.Name = "custButton7";
+			this.custButton7.Size = new System.Drawing.Size(95, 65);
+			this.custButton7.TabIndex = 77;
+			this.custButton7.Text = "MAINT\r\nAND\r\nADJUSTMENT";
+			this.custButton7.UseVisualStyleBackColor = false;
+			// 
+			// custButton6
+			// 
+			this.custButton6.BackColor = System.Drawing.Color.Black;
+			this.custButton6.Font = new System.Drawing.Font("宋体", 12F);
+			this.custButton6.ForeColor = System.Drawing.Color.Teal;
+			this.custButton6.Location = new System.Drawing.Point(100, 587);
+			this.custButton6.Name = "custButton6";
+			this.custButton6.Size = new System.Drawing.Size(95, 65);
+			this.custButton6.TabIndex = 76;
+			this.custButton6.Text = "3KEY\r\n\r\nSW";
+			this.custButton6.UseVisualStyleBackColor = false;
+			// 
+			// pinkGroupBox1
+			// 
+			this.pinkGroupBox1.Controls.Add(this.label65);
+			this.pinkGroupBox1.Controls.Add(this.label64);
+			this.pinkGroupBox1.Controls.Add(this.label63);
+			this.pinkGroupBox1.Controls.Add(this.label62);
+			this.pinkGroupBox1.Controls.Add(this.label61);
+			this.pinkGroupBox1.Controls.Add(this.label60);
+			this.pinkGroupBox1.Location = new System.Drawing.Point(57, 453);
+			this.pinkGroupBox1.Name = "pinkGroupBox1";
+			this.pinkGroupBox1.Size = new System.Drawing.Size(535, 124);
+			this.pinkGroupBox1.TabIndex = 75;
+			this.pinkGroupBox1.TabStop = false;
+			this.pinkGroupBox1.Text = "User\'S Field";
+			// 
+			// label65
+			// 
+			this.label65.ForeColor = System.Drawing.Color.Teal;
+			this.label65.Location = new System.Drawing.Point(196, 92);
+			this.label65.Name = "label65";
+			this.label65.Size = new System.Drawing.Size(157, 20);
+			this.label65.TabIndex = 64;
+			this.label65.Text = "GP-IB";
+			this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label64
+			// 
+			this.label64.ForeColor = System.Drawing.Color.Teal;
+			this.label64.Location = new System.Drawing.Point(330, 57);
+			this.label64.Name = "label64";
+			this.label64.Size = new System.Drawing.Size(157, 20);
+			this.label64.TabIndex = 63;
+			this.label64.Text = "500 um";
+			this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label63
+			// 
+			this.label63.ForeColor = System.Drawing.Color.Teal;
+			this.label63.Location = new System.Drawing.Point(330, 19);
+			this.label63.Name = "label63";
+			this.label63.Size = new System.Drawing.Size(157, 20);
+			this.label63.TabIndex = 62;
+			this.label63.Text = "0  um";
+			this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// label62
+			// 
+			this.label62.ForeColor = System.Drawing.Color.Teal;
+			this.label62.Location = new System.Drawing.Point(6, 92);
+			this.label62.Name = "label62";
+			this.label62.Size = new System.Drawing.Size(157, 20);
+			this.label62.TabIndex = 61;
+			this.label62.Text = "Method Of External Control";
+			this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// label61
+			// 
+			this.label61.ForeColor = System.Drawing.Color.Teal;
+			this.label61.Location = new System.Drawing.Point(6, 57);
+			this.label61.Name = "label61";
+			this.label61.Size = new System.Drawing.Size(157, 20);
+			this.label61.TabIndex = 60;
+			this.label61.Text = "Clearance";
+			this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// label60
+			// 
+			this.label60.ForeColor = System.Drawing.Color.Teal;
+			this.label60.Location = new System.Drawing.Point(6, 19);
+			this.label60.Name = "label60";
+			this.label60.Size = new System.Drawing.Size(157, 20);
+			this.label60.TabIndex = 59;
+			this.label60.Text = "Probing Overdrive";
+			this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
 			// custButton5
 			// 
 			this.custButton5.BackColor = System.Drawing.Color.Black;
@@ -669,11 +888,11 @@
 			this.custButton3.TabIndex = 58;
 			this.custButton3.Text = "PROBER\r\nMODE\r\nSETTINGS";
 			this.custButton3.UseVisualStyleBackColor = false;
-			this.custButton3.Click += new System.EventHandler(this.custButton3_Click);
 			// 
 			// custButton2
 			// 
 			this.custButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(242)))), ((int)(((byte)(239)))));
+			this.custButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton2.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(85)))), ((int)(((byte)(169)))));
 			this.custButton2.Location = new System.Drawing.Point(778, 174);
@@ -682,10 +901,12 @@
 			this.custButton2.TabIndex = 57;
 			this.custButton2.Text = "DEVICE\r\nPARAMETER\r\nCHANGE";
 			this.custButton2.UseVisualStyleBackColor = false;
+			this.custButton2.Click += new System.EventHandler(this.custButton2_Click);
 			// 
 			// custButton1
 			// 
 			this.custButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(242)))), ((int)(((byte)(239)))));
+			this.custButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton1.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(85)))), ((int)(((byte)(169)))));
 			this.custButton1.Location = new System.Drawing.Point(686, 51);
@@ -694,6 +915,7 @@
 			this.custButton1.TabIndex = 56;
 			this.custButton1.Text = "LOT\r\n\r\nSETTINGS";
 			this.custButton1.UseVisualStyleBackColor = false;
+			this.custButton1.Click += new System.EventHandler(this.custButton1_Click);
 			// 
 			// greenGroupBox1
 			// 
@@ -792,224 +1014,6 @@
 			this.label37.Text = "Basic map";
 			this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// pinkGroupBox1
-			// 
-			this.pinkGroupBox1.Controls.Add(this.label65);
-			this.pinkGroupBox1.Controls.Add(this.label64);
-			this.pinkGroupBox1.Controls.Add(this.label63);
-			this.pinkGroupBox1.Controls.Add(this.label62);
-			this.pinkGroupBox1.Controls.Add(this.label61);
-			this.pinkGroupBox1.Controls.Add(this.label60);
-			this.pinkGroupBox1.Location = new System.Drawing.Point(57, 453);
-			this.pinkGroupBox1.Name = "pinkGroupBox1";
-			this.pinkGroupBox1.Size = new System.Drawing.Size(535, 124);
-			this.pinkGroupBox1.TabIndex = 75;
-			this.pinkGroupBox1.TabStop = false;
-			this.pinkGroupBox1.Text = "User\'S Field";
-			// 
-			// label65
-			// 
-			this.label65.ForeColor = System.Drawing.Color.Teal;
-			this.label65.Location = new System.Drawing.Point(196, 92);
-			this.label65.Name = "label65";
-			this.label65.Size = new System.Drawing.Size(157, 20);
-			this.label65.TabIndex = 64;
-			this.label65.Text = "GP-IB";
-			this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label64
-			// 
-			this.label64.ForeColor = System.Drawing.Color.Teal;
-			this.label64.Location = new System.Drawing.Point(330, 57);
-			this.label64.Name = "label64";
-			this.label64.Size = new System.Drawing.Size(157, 20);
-			this.label64.TabIndex = 63;
-			this.label64.Text = "500 um";
-			this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// label63
-			// 
-			this.label63.ForeColor = System.Drawing.Color.Teal;
-			this.label63.Location = new System.Drawing.Point(330, 19);
-			this.label63.Name = "label63";
-			this.label63.Size = new System.Drawing.Size(157, 20);
-			this.label63.TabIndex = 62;
-			this.label63.Text = "0  um";
-			this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// label62
-			// 
-			this.label62.ForeColor = System.Drawing.Color.Teal;
-			this.label62.Location = new System.Drawing.Point(6, 92);
-			this.label62.Name = "label62";
-			this.label62.Size = new System.Drawing.Size(157, 20);
-			this.label62.TabIndex = 61;
-			this.label62.Text = "Method Of External Control";
-			this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label61
-			// 
-			this.label61.ForeColor = System.Drawing.Color.Teal;
-			this.label61.Location = new System.Drawing.Point(6, 57);
-			this.label61.Name = "label61";
-			this.label61.Size = new System.Drawing.Size(157, 20);
-			this.label61.TabIndex = 60;
-			this.label61.Text = "Clearance";
-			this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// label60
-			// 
-			this.label60.ForeColor = System.Drawing.Color.Teal;
-			this.label60.Location = new System.Drawing.Point(6, 19);
-			this.label60.Name = "label60";
-			this.label60.Size = new System.Drawing.Size(157, 20);
-			this.label60.TabIndex = 59;
-			this.label60.Text = "Probing Overdrive";
-			this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// custButton6
-			// 
-			this.custButton6.BackColor = System.Drawing.Color.Black;
-			this.custButton6.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton6.ForeColor = System.Drawing.Color.Teal;
-			this.custButton6.Location = new System.Drawing.Point(100, 587);
-			this.custButton6.Name = "custButton6";
-			this.custButton6.Size = new System.Drawing.Size(95, 65);
-			this.custButton6.TabIndex = 76;
-			this.custButton6.Text = "3KEY\r\n\r\nSW";
-			this.custButton6.UseVisualStyleBackColor = false;
-			// 
-			// custButton7
-			// 
-			this.custButton7.BackColor = System.Drawing.Color.Red;
-			this.custButton7.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton7.ForeColor = System.Drawing.Color.White;
-			this.custButton7.Location = new System.Drawing.Point(198, 587);
-			this.custButton7.Name = "custButton7";
-			this.custButton7.Size = new System.Drawing.Size(95, 65);
-			this.custButton7.TabIndex = 77;
-			this.custButton7.Text = "MAINT\r\nAND\r\nADJUSTMENT";
-			this.custButton7.UseVisualStyleBackColor = false;
-			// 
-			// custButton8
-			// 
-			this.custButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton8.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton8.ForeColor = System.Drawing.Color.White;
-			this.custButton8.Location = new System.Drawing.Point(294, 587);
-			this.custButton8.Name = "custButton8";
-			this.custButton8.Size = new System.Drawing.Size(95, 65);
-			this.custButton8.TabIndex = 78;
-			this.custButton8.Text = "UTILITY";
-			this.custButton8.UseVisualStyleBackColor = false;
-			// 
-			// custButton9
-			// 
-			this.custButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton9.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton9.ForeColor = System.Drawing.Color.White;
-			this.custButton9.Location = new System.Drawing.Point(893, 500);
-			this.custButton9.Name = "custButton9";
-			this.custButton9.Size = new System.Drawing.Size(95, 65);
-			this.custButton9.TabIndex = 79;
-			this.custButton9.Text = "PROBER\r\nMODE\r\nSETTINGS";
-			this.custButton9.UseVisualStyleBackColor = false;
-			// 
-			// custButton10
-			// 
-			this.custButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(0)))), ((int)(((byte)(238)))));
-			this.custButton10.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton10.ForeColor = System.Drawing.Color.White;
-			this.custButton10.Location = new System.Drawing.Point(906, 587);
-			this.custButton10.Name = "custButton10";
-			this.custButton10.Size = new System.Drawing.Size(95, 65);
-			this.custButton10.TabIndex = 80;
-			this.custButton10.Text = "SYSTEM\r\nMODE\r\nCHANGE";
-			this.custButton10.UseVisualStyleBackColor = false;
-			// 
-			// custButton11
-			// 
-			this.custButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton11.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton11.ForeColor = System.Drawing.Color.White;
-			this.custButton11.Location = new System.Drawing.Point(810, 587);
-			this.custButton11.Name = "custButton11";
-			this.custButton11.Size = new System.Drawing.Size(95, 65);
-			this.custButton11.TabIndex = 81;
-			this.custButton11.Text = "CARD\r\n\r\nCHANGE";
-			this.custButton11.UseVisualStyleBackColor = false;
-			// 
-			// custButton12
-			// 
-			this.custButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton12.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton12.ForeColor = System.Drawing.Color.White;
-			this.custButton12.Location = new System.Drawing.Point(714, 587);
-			this.custButton12.Name = "custButton12";
-			this.custButton12.Size = new System.Drawing.Size(95, 65);
-			this.custButton12.TabIndex = 82;
-			this.custButton12.Text = "CLEANING\r\nUNIT\r\nCHANGE";
-			this.custButton12.UseVisualStyleBackColor = false;
-			// 
-			// label59
-			// 
-			this.label59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(243)))), ((int)(((byte)(185)))));
-			this.label59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label59.Font = new System.Drawing.Font("宋体", 11F);
-			this.label59.Location = new System.Drawing.Point(3, 655);
-			this.label59.Name = "label59";
-			this.label59.Size = new System.Drawing.Size(1003, 23);
-			this.label59.TabIndex = 83;
-			this.label59.Text = "Push <START> SW.to start LOT Processing!!";
-			this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// custButton13
-			// 
-			this.custButton13.BackColor = System.Drawing.Color.Lime;
-			this.custButton13.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.custButton13.Location = new System.Drawing.Point(390, 587);
-			this.custButton13.Name = "custButton13";
-			this.custButton13.Size = new System.Drawing.Size(185, 65);
-			this.custButton13.TabIndex = 84;
-			this.custButton13.Text = "START";
-			this.custButton13.UseVisualStyleBackColor = false;
-			// 
-			// yellowGroupBox1
-			// 
-			this.yellowGroupBox1.Controls.Add(this.custButton15);
-			this.yellowGroupBox1.Controls.Add(this.custButton14);
-			this.yellowGroupBox1.Location = new System.Drawing.Point(645, 465);
-			this.yellowGroupBox1.Name = "yellowGroupBox1";
-			this.yellowGroupBox1.Size = new System.Drawing.Size(200, 90);
-			this.yellowGroupBox1.TabIndex = 85;
-			this.yellowGroupBox1.TabStop = false;
-			this.yellowGroupBox1.Text = "User\'S SW";
-			// 
-			// custButton15
-			// 
-			this.custButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton15.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton15.ForeColor = System.Drawing.Color.White;
-			this.custButton15.Location = new System.Drawing.Point(99, 22);
-			this.custButton15.Name = "custButton15";
-			this.custButton15.Size = new System.Drawing.Size(95, 65);
-			this.custButton15.TabIndex = 81;
-			this.custButton15.Text = "PROBER\r\nMODE\r\nSETTINGS";
-			this.custButton15.UseVisualStyleBackColor = false;
-			// 
-			// custButton14
-			// 
-			this.custButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton14.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton14.ForeColor = System.Drawing.Color.White;
-			this.custButton14.Location = new System.Drawing.Point(6, 22);
-			this.custButton14.Name = "custButton14";
-			this.custButton14.Size = new System.Drawing.Size(95, 65);
-			this.custButton14.TabIndex = 80;
-			this.custButton14.Text = "PROBER\r\nMODE\r\nSETTINGS";
-			this.custButton14.UseVisualStyleBackColor = false;
-			// 
 			// InfoForm
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1062,7 +1066,7 @@
 			this.Controls.Add(this.label21);
 			this.Controls.Add(this.label22);
 			this.Controls.Add(this.label31);
-			this.Controls.Add(this.label30);
+			this.Controls.Add(this.lblDevice);
 			this.Controls.Add(this.label19);
 			this.Controls.Add(this.label18);
 			this.Controls.Add(this.label17);
@@ -1071,7 +1075,7 @@
 			this.Controls.Add(this.label16);
 			this.Controls.Add(this.label13);
 			this.Controls.Add(this.label12);
-			this.Controls.Add(this.label11);
+			this.Controls.Add(this.lblTime);
 			this.Controls.Add(this.label10);
 			this.Controls.Add(this.label9);
 			this.Controls.Add(this.label8);
@@ -1090,9 +1094,9 @@
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "InfoForm";
 			this.Load += new System.EventHandler(this.InfoForm_Load);
-			this.greenGroupBox1.ResumeLayout(false);
-			this.pinkGroupBox1.ResumeLayout(false);
 			this.yellowGroupBox1.ResumeLayout(false);
+			this.pinkGroupBox1.ResumeLayout(false);
+			this.greenGroupBox1.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -1110,7 +1114,7 @@
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Label lblTime;
 		private System.Windows.Forms.Label label12;
 		private System.Windows.Forms.Label label13;
 		private System.Windows.Forms.Label label14;
@@ -1119,7 +1123,7 @@
 		private System.Windows.Forms.Label label17;
 		private System.Windows.Forms.Label label18;
 		private System.Windows.Forms.Label label19;
-		private System.Windows.Forms.Label label30;
+		private System.Windows.Forms.Label lblDevice;
 		private System.Windows.Forms.Label label31;
 		private System.Windows.Forms.Label label20;
 		private System.Windows.Forms.Label label21;

@@ -17,30 +17,31 @@ namespace UF200Simulation
 			InitializeComponent();
 		}
 
-		private void button1_Click(object sender, EventArgs e)
-		{
-			//Form1 childForm = new Form1();
-			//childForm.StartPosition = FormStartPosition.CenterParent;
-			//childForm.Show();
-		}
 
 		private void InfoForm_Load(object sender, EventArgs e)
 		{
-
+			lblTime.Text = DateTime.Now.ToString("MM/dd/yyyy HH:mm");
 		}
 
-		private void custButton3_Click(object sender, EventArgs e)
+		private void custButton2_Click(object sender, EventArgs e)
 		{
-			//InputForm inputForm = new InputForm();
-			//inputForm.TitleText = "Device";
-
-			//inputForm.StartPosition = FormStartPosition.CenterParent;
-
-			//inputForm.ShowDialog(this);
 			DeviceForm deviceForm = new DeviceForm();
 			deviceForm.StartPosition = FormStartPosition.CenterParent;
-
 			deviceForm.ShowDialog(this);
+			lblDevice.Text= deviceForm.DeviceText;
+		}
+
+		private void label7_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+
+		private void custButton1_Click(object sender, EventArgs e)
+		{
+			LotForm1 lotForm1 = new LotForm1();
+			lotForm1.StartPosition = FormStartPosition.CenterParent;
+			lotForm1.DeviceText = lblDevice.Text;
+			lotForm1.ShowDialog(this);
 		}
 	}
 }

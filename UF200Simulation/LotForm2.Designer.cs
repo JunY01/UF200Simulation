@@ -1,6 +1,6 @@
 ﻿namespace UF200Simulation
 {
-	partial class DeviceForm
+	partial class LotForm2
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -29,23 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("CHUCK AIR BLOW SETTING(CHUCK COO");
-			System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("CHUCK AIR BLOW SETTING(CHUCK CLEA");
-			System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("CAT. DATA of DIRECT / MULTIPASS PRO");
-			System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("BERNOULLI TRANSPORTATION SETTING");
-			System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("WAFER REFERENCE DIR. SETTINGS");
-			System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("WAFER THICKNESS MEASUREMENT ME");
-			System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("ALIGNMENT DATA SETTINGS");
-			System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("REFERENCE DIE DATA SETTINGS");
-			System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Device Name Parameter", new System.Windows.Forms.TreeNode[] {
-            treeNode28,
-            treeNode29,
-            treeNode30,
-            treeNode31,
-            treeNode32,
-            treeNode33,
-            treeNode34,
-            treeNode35});
+			System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Lot parameter");
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label10 = new System.Windows.Forms.Label();
@@ -69,9 +53,7 @@
 			this.label21 = new System.Windows.Forms.Label();
 			this.label22 = new System.Windows.Forms.Label();
 			this.treeView1 = new System.Windows.Forms.TreeView();
-			this.custButton8 = new Components.CustButton(this.components);
 			this.custButton6 = new Components.CustButton(this.components);
-			this.custButton7 = new Components.CustButton(this.components);
 			this.custButton4 = new Components.CustButton(this.components);
 			this.custButton5 = new Components.CustButton(this.components);
 			this.custButton3 = new Components.CustButton(this.components);
@@ -86,9 +68,9 @@
 			this.label1.Font = new System.Drawing.Font("宋体", 16F);
 			this.label1.Location = new System.Drawing.Point(12, 9);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(373, 22);
+			this.label1.Size = new System.Drawing.Size(252, 22);
 			this.label1.TabIndex = 2;
-			this.label1.Text = "*****DEVICE PARAMER SETTINGS*****";
+			this.label1.Text = "*****LOT SETTINGS*****";
 			// 
 			// label2
 			// 
@@ -98,7 +80,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(142, 22);
 			this.label2.TabIndex = 91;
-			this.label2.Text = "PAGE     1/5";
+			this.label2.Text = "PAGE     1/2";
 			// 
 			// label10
 			// 
@@ -113,7 +95,6 @@
 			this.label10.TabIndex = 93;
 			this.label10.Text = "Device\r\n\r\n                :SPQ2R4N-4SGA-2K";
 			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label10.Click += new System.EventHandler(this.label10_Click);
 			// 
 			// label3
 			// 
@@ -138,7 +119,7 @@
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(473, 50);
 			this.label4.TabIndex = 95;
-			this.label4.Text = "Wafer Size Correction\r\n\r\n                :0.000mm";
+			this.label4.Text = "Index Size X\r\n\r\n                :1860.3000um\r\n";
 			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label5
@@ -151,7 +132,7 @@
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(473, 50);
 			this.label5.TabIndex = 96;
-			this.label5.Text = "Wafer Type\r\n\r\n                :Warp Wafer";
+			this.label5.Text = "Index Size Y\r\n\r\n                :2913.3000um\r\n";
 			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label6
@@ -164,7 +145,7 @@
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(473, 50);
 			this.label6.TabIndex = 97;
-			this.label6.Text = "Index Size X\r\n\r\n                :1860.3000um";
+			this.label6.Text = "Flat/Notch Direction\r\n\r\n                :270deg\r\n";
 			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label7
@@ -177,7 +158,7 @@
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(473, 50);
 			this.label7.TabIndex = 98;
-			this.label7.Text = "Index Size Y\r\n\r\n                :2913.3000um";
+			this.label7.Text = "Perform Temperature Control?\r\n\r\n                :No\r\n";
 			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label8
@@ -190,7 +171,7 @@
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(473, 50);
 			this.label8.TabIndex = 99;
-			this.label8.Text = "Flat/Notch Direction\r\n\r\n                :270deg";
+			this.label8.Text = "Temperature Tolerant Deviation\r\n\r\n                :1.0deg\r\n";
 			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label9
@@ -203,7 +184,7 @@
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(473, 50);
 			this.label9.TabIndex = 100;
-			this.label9.Text = "Perform Temperature Control?\r\n\r\n                :No";
+			this.label9.Text = "Probing Mode\r\n\r\n                :Sample && Regular";
 			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label11
@@ -216,7 +197,7 @@
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(473, 50);
 			this.label11.TabIndex = 101;
-			this.label11.Text = "Chuck Temperature\r\n\r\n                :0.0deg";
+			this.label11.Text = "Multi Probing Setting\r\n\r\n                :44";
 			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label12
@@ -229,7 +210,7 @@
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(473, 50);
 			this.label12.TabIndex = 102;
-			this.label12.Text = "Temperature Tolerant Deviation\r\n\r\n                :1.0deg";
+			this.label12.Text = "Location No. for Tester\r\n\r\n                :42";
 			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label13
@@ -256,11 +237,11 @@
 			// 
 			this.label15.AutoSize = true;
 			this.label15.Font = new System.Drawing.Font("宋体", 12F);
-			this.label15.Location = new System.Drawing.Point(901, 132);
+			this.label15.Location = new System.Drawing.Point(933, 132);
 			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(47, 16);
+			this.label15.Size = new System.Drawing.Size(15, 16);
 			this.label15.TabIndex = 105;
-			this.label15.Text = "20031";
+			this.label15.Text = "4";
 			// 
 			// label16
 			// 
@@ -270,7 +251,7 @@
 			this.label16.Name = "label16";
 			this.label16.Size = new System.Drawing.Size(15, 16);
 			this.label16.TabIndex = 106;
-			this.label16.Text = "3";
+			this.label16.Text = "5";
 			// 
 			// label17
 			// 
@@ -280,57 +261,57 @@
 			this.label17.Name = "label17";
 			this.label17.Size = new System.Drawing.Size(15, 16);
 			this.label17.TabIndex = 107;
-			this.label17.Text = "4";
+			this.label17.Text = "8";
 			// 
 			// label18
 			// 
 			this.label18.AutoSize = true;
 			this.label18.Font = new System.Drawing.Font("宋体", 12F);
-			this.label18.Location = new System.Drawing.Point(933, 279);
+			this.label18.Location = new System.Drawing.Point(925, 279);
 			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(15, 16);
+			this.label18.Size = new System.Drawing.Size(23, 16);
 			this.label18.TabIndex = 108;
-			this.label18.Text = "5";
+			this.label18.Text = "31";
 			// 
 			// label19
 			// 
 			this.label19.AutoSize = true;
 			this.label19.Font = new System.Drawing.Font("宋体", 12F);
-			this.label19.Location = new System.Drawing.Point(933, 328);
+			this.label19.Location = new System.Drawing.Point(925, 328);
 			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(15, 16);
+			this.label19.Size = new System.Drawing.Size(23, 16);
 			this.label19.TabIndex = 109;
-			this.label19.Text = "8";
+			this.label19.Text = "34";
 			// 
 			// label20
 			// 
 			this.label20.AutoSize = true;
 			this.label20.Font = new System.Drawing.Font("宋体", 12F);
-			this.label20.Location = new System.Drawing.Point(925, 377);
+			this.label20.Location = new System.Drawing.Point(917, 377);
 			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(23, 16);
+			this.label20.Size = new System.Drawing.Size(31, 16);
 			this.label20.TabIndex = 110;
-			this.label20.Text = "31";
+			this.label20.Text = "201";
 			// 
 			// label21
 			// 
 			this.label21.AutoSize = true;
 			this.label21.Font = new System.Drawing.Font("宋体", 12F);
-			this.label21.Location = new System.Drawing.Point(901, 426);
+			this.label21.Location = new System.Drawing.Point(917, 426);
 			this.label21.Name = "label21";
-			this.label21.Size = new System.Drawing.Size(47, 16);
+			this.label21.Size = new System.Drawing.Size(31, 16);
 			this.label21.TabIndex = 111;
-			this.label21.Text = "20055";
+			this.label21.Text = "203";
 			// 
 			// label22
 			// 
 			this.label22.AutoSize = true;
 			this.label22.Font = new System.Drawing.Font("宋体", 12F);
-			this.label22.Location = new System.Drawing.Point(925, 475);
+			this.label22.Location = new System.Drawing.Point(917, 475);
 			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(23, 16);
+			this.label22.Size = new System.Drawing.Size(31, 16);
 			this.label22.TabIndex = 112;
-			this.label22.Text = "34";
+			this.label22.Text = "207";
 			// 
 			// treeView1
 			// 
@@ -341,40 +322,12 @@
 			this.treeView1.LineColor = System.Drawing.Color.White;
 			this.treeView1.Location = new System.Drawing.Point(12, 34);
 			this.treeView1.Name = "treeView1";
-			treeNode28.Name = "节点2";
-			treeNode28.Text = "CHUCK AIR BLOW SETTING(CHUCK COO";
-			treeNode29.Name = "节点0";
-			treeNode29.Text = "CHUCK AIR BLOW SETTING(CHUCK CLEA";
-			treeNode30.Name = "节点2";
-			treeNode30.Text = "CAT. DATA of DIRECT / MULTIPASS PRO";
-			treeNode31.Name = "节点3";
-			treeNode31.Text = "BERNOULLI TRANSPORTATION SETTING";
-			treeNode32.Name = "节点4";
-			treeNode32.Text = "WAFER REFERENCE DIR. SETTINGS";
-			treeNode33.Name = "节点5";
-			treeNode33.Text = "WAFER THICKNESS MEASUREMENT ME";
-			treeNode34.Name = "节点6";
-			treeNode34.Text = "ALIGNMENT DATA SETTINGS";
-			treeNode35.Name = "节点7";
-			treeNode35.Text = "REFERENCE DIE DATA SETTINGS";
-			treeNode36.Name = "节点0";
-			treeNode36.Text = "Device Name Parameter";
+			treeNode1.Name = "节点0";
+			treeNode1.Text = "Lot parameter";
 			this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode36});
+            treeNode1});
 			this.treeView1.Size = new System.Drawing.Size(373, 490);
 			this.treeView1.TabIndex = 113;
-			// 
-			// custButton8
-			// 
-			this.custButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton8.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton8.ForeColor = System.Drawing.Color.White;
-			this.custButton8.Location = new System.Drawing.Point(870, 9);
-			this.custButton8.Name = "custButton8";
-			this.custButton8.Size = new System.Drawing.Size(95, 25);
-			this.custButton8.TabIndex = 92;
-			this.custButton8.Text = "SEARCH";
-			this.custButton8.UseVisualStyleBackColor = false;
 			// 
 			// custButton6
 			// 
@@ -389,18 +342,6 @@
 			this.custButton6.Text = "SETTING\r\n\r\nEND";
 			this.custButton6.UseVisualStyleBackColor = false;
 			this.custButton6.Click += new System.EventHandler(this.custButton6_Click);
-			// 
-			// custButton7
-			// 
-			this.custButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
-			this.custButton7.Font = new System.Drawing.Font("宋体", 12F);
-			this.custButton7.ForeColor = System.Drawing.Color.White;
-			this.custButton7.Location = new System.Drawing.Point(769, 548);
-			this.custButton7.Name = "custButton7";
-			this.custButton7.Size = new System.Drawing.Size(95, 65);
-			this.custButton7.TabIndex = 89;
-			this.custButton7.Text = "DATA\r\n\r\nSTORE";
-			this.custButton7.UseVisualStyleBackColor = false;
 			// 
 			// custButton4
 			// 
@@ -474,7 +415,7 @@
 			this.custButton12.Text = "CANCEL";
 			this.custButton12.UseVisualStyleBackColor = false;
 			// 
-			// DeviceForm
+			// LotForm2
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
 			this.BackColor = System.Drawing.Color.Black;
@@ -500,10 +441,8 @@
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label10);
-			this.Controls.Add(this.custButton8);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.custButton6);
-			this.Controls.Add(this.custButton7);
 			this.Controls.Add(this.custButton4);
 			this.Controls.Add(this.custButton5);
 			this.Controls.Add(this.custButton3);
@@ -513,8 +452,9 @@
 			this.Controls.Add(this.label1);
 			this.ForeColor = System.Drawing.Color.White;
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.Name = "DeviceForm";
+			this.Name = "LotForm2";
 			this.Text = "DeviceForm";
+			this.Load += new System.EventHandler(this.LotForm2_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -529,9 +469,7 @@
 		private Components.CustButton custButton4;
 		private Components.CustButton custButton5;
 		private Components.CustButton custButton6;
-		private Components.CustButton custButton7;
 		private System.Windows.Forms.Label label2;
-		private Components.CustButton custButton8;
 		private System.Windows.Forms.Label label10;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;

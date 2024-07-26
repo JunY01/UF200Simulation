@@ -105,6 +105,7 @@
 			// custButton3
 			// 
 			this.custButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton3.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton3.ForeColor = System.Drawing.Color.White;
 			this.custButton3.Location = new System.Drawing.Point(10, 158);
@@ -114,10 +115,12 @@
 			this.custButton3.Text = "!\r\n 1";
 			this.custButton3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton3.UseVisualStyleBackColor = false;
+			this.custButton3.Click += new System.EventHandler(this.custButton3_Click);
 			// 
 			// custButton6
 			// 
 			this.custButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton6.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton6.ForeColor = System.Drawing.Color.White;
 			this.custButton6.Location = new System.Drawing.Point(68, 158);
@@ -127,10 +130,12 @@
 			this.custButton6.Text = "@\r\n 2";
 			this.custButton6.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton6.UseVisualStyleBackColor = false;
+			this.custButton6.Click += new System.EventHandler(this.custButton6_Click);
 			// 
 			// custButton7
 			// 
 			this.custButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton7.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton7.ForeColor = System.Drawing.Color.White;
 			this.custButton7.Location = new System.Drawing.Point(128, 158);
@@ -140,10 +145,12 @@
 			this.custButton7.Text = "#\r\n 3";
 			this.custButton7.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton7.UseVisualStyleBackColor = false;
+			this.custButton7.Click += new System.EventHandler(this.custButton7_Click);
 			// 
 			// custButton8
 			// 
 			this.custButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton8.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton8.ForeColor = System.Drawing.Color.White;
 			this.custButton8.Location = new System.Drawing.Point(188, 158);
@@ -153,10 +160,12 @@
 			this.custButton8.Text = "$\r\n 4";
 			this.custButton8.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton8.UseVisualStyleBackColor = false;
+			this.custButton8.Click += new System.EventHandler(this.custButton8_Click);
 			// 
 			// custButton9
 			// 
 			this.custButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton9.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton9.ForeColor = System.Drawing.Color.White;
 			this.custButton9.Location = new System.Drawing.Point(248, 158);
@@ -166,10 +175,12 @@
 			this.custButton9.Text = "%\r\n 5";
 			this.custButton9.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton9.UseVisualStyleBackColor = false;
+			this.custButton9.Click += new System.EventHandler(this.custButton9_Click);
 			// 
 			// custButton10
 			// 
 			this.custButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton10.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton10.ForeColor = System.Drawing.Color.White;
 			this.custButton10.Location = new System.Drawing.Point(308, 158);
@@ -179,6 +190,7 @@
 			this.custButton10.Text = "^\r\n 6";
 			this.custButton10.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton10.UseVisualStyleBackColor = false;
+			this.custButton10.Click += new System.EventHandler(this.custButton10_Click);
 			// 
 			// custButton11
 			// 
@@ -192,10 +204,12 @@
 			this.custButton11.Text = "_\r\n -";
 			this.custButton11.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton11.UseVisualStyleBackColor = false;
+			this.custButton11.Click += new System.EventHandler(this.custButton11_Click);
 			// 
 			// custButton12
 			// 
 			this.custButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton12.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton12.ForeColor = System.Drawing.Color.White;
 			this.custButton12.Location = new System.Drawing.Point(368, 158);
@@ -205,10 +219,12 @@
 			this.custButton12.Text = "&&\r\n 7";
 			this.custButton12.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton12.UseVisualStyleBackColor = false;
+			this.custButton12.Click += new System.EventHandler(this.custButton12_Click);
 			// 
 			// custButton13
 			// 
 			this.custButton13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton13.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton13.ForeColor = System.Drawing.Color.White;
 			this.custButton13.Location = new System.Drawing.Point(428, 158);
@@ -218,10 +234,12 @@
 			this.custButton13.Text = "*\r\n 8";
 			this.custButton13.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton13.UseVisualStyleBackColor = false;
+			this.custButton13.Click += new System.EventHandler(this.custButton13_Click);
 			// 
 			// custButton14
 			// 
 			this.custButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton14.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton14.ForeColor = System.Drawing.Color.White;
 			this.custButton14.Location = new System.Drawing.Point(488, 158);
@@ -231,10 +249,12 @@
 			this.custButton14.Text = "(\r\n 9";
 			this.custButton14.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton14.UseVisualStyleBackColor = false;
+			this.custButton14.Click += new System.EventHandler(this.custButton14_Click);
 			// 
 			// custButton15
 			// 
 			this.custButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton15.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton15.ForeColor = System.Drawing.Color.White;
 			this.custButton15.Location = new System.Drawing.Point(548, 158);
@@ -244,10 +264,12 @@
 			this.custButton15.Text = ")\r\n 0";
 			this.custButton15.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton15.UseVisualStyleBackColor = false;
+			this.custButton15.Click += new System.EventHandler(this.custButton15_Click);
 			// 
 			// custButton16
 			// 
 			this.custButton16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton16.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton16.ForeColor = System.Drawing.Color.White;
 			this.custButton16.Location = new System.Drawing.Point(668, 158);
@@ -261,6 +283,7 @@
 			// custButton1
 			// 
 			this.custButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton1.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton1.ForeColor = System.Drawing.Color.White;
 			this.custButton1.Location = new System.Drawing.Point(668, 226);
@@ -273,6 +296,7 @@
 			// custButton2
 			// 
 			this.custButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton2.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton2.ForeColor = System.Drawing.Color.White;
 			this.custButton2.Location = new System.Drawing.Point(548, 226);
@@ -282,10 +306,12 @@
 			this.custButton2.Text = "p\r\n P";
 			this.custButton2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton2.UseVisualStyleBackColor = false;
+			this.custButton2.Click += new System.EventHandler(this.custButton2_Click);
 			// 
 			// custButton4
 			// 
 			this.custButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton4.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton4.ForeColor = System.Drawing.Color.White;
 			this.custButton4.Location = new System.Drawing.Point(488, 226);
@@ -295,10 +321,12 @@
 			this.custButton4.Text = "o\r\n O";
 			this.custButton4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton4.UseVisualStyleBackColor = false;
+			this.custButton4.Click += new System.EventHandler(this.custButton4_Click);
 			// 
 			// custButton5
 			// 
 			this.custButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton5.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton5.ForeColor = System.Drawing.Color.White;
 			this.custButton5.Location = new System.Drawing.Point(428, 226);
@@ -308,10 +336,12 @@
 			this.custButton5.Text = "i\r\n I";
 			this.custButton5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton5.UseVisualStyleBackColor = false;
+			this.custButton5.Click += new System.EventHandler(this.custButton5_Click);
 			// 
 			// custButton17
 			// 
 			this.custButton17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton17.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton17.ForeColor = System.Drawing.Color.White;
 			this.custButton17.Location = new System.Drawing.Point(368, 226);
@@ -321,10 +351,12 @@
 			this.custButton17.Text = "u\r\n U";
 			this.custButton17.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton17.UseVisualStyleBackColor = false;
+			this.custButton17.Click += new System.EventHandler(this.custButton17_Click);
 			// 
 			// custButton18
 			// 
 			this.custButton18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton18.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton18.ForeColor = System.Drawing.Color.White;
 			this.custButton18.Location = new System.Drawing.Point(608, 226);
@@ -334,10 +366,12 @@
 			this.custButton18.Text = "|\r\n \\";
 			this.custButton18.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton18.UseVisualStyleBackColor = false;
+			this.custButton18.Click += new System.EventHandler(this.custButton18_Click);
 			// 
 			// custButton19
 			// 
 			this.custButton19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton19.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton19.ForeColor = System.Drawing.Color.White;
 			this.custButton19.Location = new System.Drawing.Point(308, 226);
@@ -347,10 +381,12 @@
 			this.custButton19.Text = "y\r\n Y";
 			this.custButton19.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton19.UseVisualStyleBackColor = false;
+			this.custButton19.Click += new System.EventHandler(this.custButton19_Click);
 			// 
 			// custButton20
 			// 
 			this.custButton20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton20.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton20.ForeColor = System.Drawing.Color.White;
 			this.custButton20.Location = new System.Drawing.Point(248, 226);
@@ -360,10 +396,12 @@
 			this.custButton20.Text = "t\r\n T";
 			this.custButton20.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton20.UseVisualStyleBackColor = false;
+			this.custButton20.Click += new System.EventHandler(this.custButton20_Click);
 			// 
 			// custButton21
 			// 
 			this.custButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton21.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton21.ForeColor = System.Drawing.Color.White;
 			this.custButton21.Location = new System.Drawing.Point(188, 226);
@@ -373,10 +411,12 @@
 			this.custButton21.Text = "r\r\n R";
 			this.custButton21.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton21.UseVisualStyleBackColor = false;
+			this.custButton21.Click += new System.EventHandler(this.custButton21_Click);
 			// 
 			// custButton22
 			// 
 			this.custButton22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton22.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton22.ForeColor = System.Drawing.Color.White;
 			this.custButton22.Location = new System.Drawing.Point(128, 226);
@@ -386,10 +426,12 @@
 			this.custButton22.Text = "e\r\n E";
 			this.custButton22.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton22.UseVisualStyleBackColor = false;
+			this.custButton22.Click += new System.EventHandler(this.custButton22_Click);
 			// 
 			// custButton23
 			// 
 			this.custButton23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton23.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton23.ForeColor = System.Drawing.Color.White;
 			this.custButton23.Location = new System.Drawing.Point(68, 226);
@@ -399,10 +441,12 @@
 			this.custButton23.Text = "w\r\n W";
 			this.custButton23.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton23.UseVisualStyleBackColor = false;
+			this.custButton23.Click += new System.EventHandler(this.custButton23_Click);
 			// 
 			// custButton24
 			// 
 			this.custButton24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton24.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton24.ForeColor = System.Drawing.Color.White;
 			this.custButton24.Location = new System.Drawing.Point(10, 226);
@@ -412,10 +456,12 @@
 			this.custButton24.Text = "q\r\n Q";
 			this.custButton24.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton24.UseVisualStyleBackColor = false;
+			this.custButton24.Click += new System.EventHandler(this.custButton24_Click);
 			// 
 			// custButton25
 			// 
 			this.custButton25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton25.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton25.ForeColor = System.Drawing.Color.White;
 			this.custButton25.Location = new System.Drawing.Point(668, 294);
@@ -424,10 +470,12 @@
 			this.custButton25.TabIndex = 126;
 			this.custButton25.Text = "DELETE";
 			this.custButton25.UseVisualStyleBackColor = false;
+			this.custButton25.Click += new System.EventHandler(this.custButton25_Click);
 			// 
 			// custButton26
 			// 
 			this.custButton26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton26.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton26.ForeColor = System.Drawing.Color.White;
 			this.custButton26.Location = new System.Drawing.Point(548, 294);
@@ -437,10 +485,12 @@
 			this.custButton26.Text = ":\r\n ;";
 			this.custButton26.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton26.UseVisualStyleBackColor = false;
+			this.custButton26.Click += new System.EventHandler(this.custButton26_Click);
 			// 
 			// custButton27
 			// 
 			this.custButton27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton27.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton27.ForeColor = System.Drawing.Color.White;
 			this.custButton27.Location = new System.Drawing.Point(488, 294);
@@ -450,6 +500,7 @@
 			this.custButton27.Text = "l\r\n L";
 			this.custButton27.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton27.UseVisualStyleBackColor = false;
+			this.custButton27.Click += new System.EventHandler(this.custButton27_Click);
 			// 
 			// custButton28
 			// 
@@ -463,10 +514,12 @@
 			this.custButton28.Text = "k\r\n K";
 			this.custButton28.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton28.UseVisualStyleBackColor = false;
+			this.custButton28.Click += new System.EventHandler(this.custButton28_Click);
 			// 
 			// custButton29
 			// 
 			this.custButton29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton29.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton29.ForeColor = System.Drawing.Color.White;
 			this.custButton29.Location = new System.Drawing.Point(368, 294);
@@ -476,10 +529,12 @@
 			this.custButton29.Text = "j\r\n J";
 			this.custButton29.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton29.UseVisualStyleBackColor = false;
+			this.custButton29.Click += new System.EventHandler(this.custButton29_Click);
 			// 
 			// custButton30
 			// 
 			this.custButton30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton30.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton30.ForeColor = System.Drawing.Color.White;
 			this.custButton30.Location = new System.Drawing.Point(608, 294);
@@ -489,10 +544,12 @@
 			this.custButton30.Text = "+\r\n =";
 			this.custButton30.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton30.UseVisualStyleBackColor = false;
+			this.custButton30.Click += new System.EventHandler(this.custButton30_Click);
 			// 
 			// custButton31
 			// 
 			this.custButton31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton31.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton31.ForeColor = System.Drawing.Color.White;
 			this.custButton31.Location = new System.Drawing.Point(308, 294);
@@ -502,10 +559,12 @@
 			this.custButton31.Text = "h\r\n H";
 			this.custButton31.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton31.UseVisualStyleBackColor = false;
+			this.custButton31.Click += new System.EventHandler(this.custButton31_Click);
 			// 
 			// custButton32
 			// 
 			this.custButton32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton32.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton32.ForeColor = System.Drawing.Color.White;
 			this.custButton32.Location = new System.Drawing.Point(248, 294);
@@ -515,10 +574,12 @@
 			this.custButton32.Text = "g\r\n G";
 			this.custButton32.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton32.UseVisualStyleBackColor = false;
+			this.custButton32.Click += new System.EventHandler(this.custButton32_Click);
 			// 
 			// custButton33
 			// 
 			this.custButton33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton33.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton33.ForeColor = System.Drawing.Color.White;
 			this.custButton33.Location = new System.Drawing.Point(188, 294);
@@ -528,10 +589,12 @@
 			this.custButton33.Text = "f\r\nF";
 			this.custButton33.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton33.UseVisualStyleBackColor = false;
+			this.custButton33.Click += new System.EventHandler(this.custButton33_Click);
 			// 
 			// custButton34
 			// 
 			this.custButton34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton34.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton34.ForeColor = System.Drawing.Color.White;
 			this.custButton34.Location = new System.Drawing.Point(128, 294);
@@ -541,10 +604,12 @@
 			this.custButton34.Text = "d\r\n D";
 			this.custButton34.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton34.UseVisualStyleBackColor = false;
+			this.custButton34.Click += new System.EventHandler(this.custButton34_Click);
 			// 
 			// custButton35
 			// 
 			this.custButton35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton35.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton35.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton35.ForeColor = System.Drawing.Color.White;
 			this.custButton35.Location = new System.Drawing.Point(68, 294);
@@ -554,10 +619,12 @@
 			this.custButton35.Text = "s\r\n S";
 			this.custButton35.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton35.UseVisualStyleBackColor = false;
+			this.custButton35.Click += new System.EventHandler(this.custButton35_Click);
 			// 
 			// custButton36
 			// 
 			this.custButton36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton36.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton36.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton36.ForeColor = System.Drawing.Color.White;
 			this.custButton36.Location = new System.Drawing.Point(10, 294);
@@ -567,10 +634,12 @@
 			this.custButton36.Text = "a\r\n A";
 			this.custButton36.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton36.UseVisualStyleBackColor = false;
+			this.custButton36.Click += new System.EventHandler(this.custButton36_Click);
 			// 
 			// custButton37
 			// 
 			this.custButton37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton37.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton37.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton37.ForeColor = System.Drawing.Color.White;
 			this.custButton37.Location = new System.Drawing.Point(668, 362);
@@ -583,6 +652,7 @@
 			// custButton38
 			// 
 			this.custButton38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton38.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton38.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton38.ForeColor = System.Drawing.Color.White;
 			this.custButton38.Location = new System.Drawing.Point(548, 362);
@@ -592,10 +662,12 @@
 			this.custButton38.Text = "?\r\n /";
 			this.custButton38.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton38.UseVisualStyleBackColor = false;
+			this.custButton38.Click += new System.EventHandler(this.custButton38_Click);
 			// 
 			// custButton39
 			// 
 			this.custButton39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton39.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton39.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton39.ForeColor = System.Drawing.Color.White;
 			this.custButton39.Location = new System.Drawing.Point(488, 362);
@@ -605,10 +677,12 @@
 			this.custButton39.Text = ">\r\n .";
 			this.custButton39.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton39.UseVisualStyleBackColor = false;
+			this.custButton39.Click += new System.EventHandler(this.custButton39_Click);
 			// 
 			// custButton40
 			// 
 			this.custButton40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton40.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton40.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton40.ForeColor = System.Drawing.Color.White;
 			this.custButton40.Location = new System.Drawing.Point(428, 362);
@@ -618,10 +692,12 @@
 			this.custButton40.Text = "<\r\n ,";
 			this.custButton40.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton40.UseVisualStyleBackColor = false;
+			this.custButton40.Click += new System.EventHandler(this.custButton40_Click);
 			// 
 			// custButton41
 			// 
 			this.custButton41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton41.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton41.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton41.ForeColor = System.Drawing.Color.White;
 			this.custButton41.Location = new System.Drawing.Point(368, 362);
@@ -631,10 +707,12 @@
 			this.custButton41.Text = "m\r\n M";
 			this.custButton41.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton41.UseVisualStyleBackColor = false;
+			this.custButton41.Click += new System.EventHandler(this.custButton41_Click);
 			// 
 			// custButton42
 			// 
 			this.custButton42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton42.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton42.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton42.ForeColor = System.Drawing.Color.White;
 			this.custButton42.Location = new System.Drawing.Point(608, 362);
@@ -643,10 +721,12 @@
 			this.custButton42.TabIndex = 133;
 			this.custButton42.Text = "-/+";
 			this.custButton42.UseVisualStyleBackColor = false;
+			this.custButton42.Click += new System.EventHandler(this.custButton42_Click);
 			// 
 			// custButton43
 			// 
 			this.custButton43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton43.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton43.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton43.ForeColor = System.Drawing.Color.White;
 			this.custButton43.Location = new System.Drawing.Point(308, 362);
@@ -656,10 +736,12 @@
 			this.custButton43.Text = "n\r\n N";
 			this.custButton43.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton43.UseVisualStyleBackColor = false;
+			this.custButton43.Click += new System.EventHandler(this.custButton43_Click);
 			// 
 			// custButton44
 			// 
 			this.custButton44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton44.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton44.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton44.ForeColor = System.Drawing.Color.White;
 			this.custButton44.Location = new System.Drawing.Point(248, 362);
@@ -669,10 +751,12 @@
 			this.custButton44.Text = "b\r\n B";
 			this.custButton44.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton44.UseVisualStyleBackColor = false;
+			this.custButton44.Click += new System.EventHandler(this.custButton44_Click);
 			// 
 			// custButton45
 			// 
 			this.custButton45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton45.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton45.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton45.ForeColor = System.Drawing.Color.White;
 			this.custButton45.Location = new System.Drawing.Point(188, 362);
@@ -682,10 +766,12 @@
 			this.custButton45.Text = "v\r\n V";
 			this.custButton45.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton45.UseVisualStyleBackColor = false;
+			this.custButton45.Click += new System.EventHandler(this.custButton45_Click);
 			// 
 			// custButton46
 			// 
 			this.custButton46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton46.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton46.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton46.ForeColor = System.Drawing.Color.White;
 			this.custButton46.Location = new System.Drawing.Point(128, 362);
@@ -695,10 +781,12 @@
 			this.custButton46.Text = "c\r\n C";
 			this.custButton46.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton46.UseVisualStyleBackColor = false;
+			this.custButton46.Click += new System.EventHandler(this.custButton46_Click);
 			// 
 			// custButton47
 			// 
 			this.custButton47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton47.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton47.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton47.ForeColor = System.Drawing.Color.White;
 			this.custButton47.Location = new System.Drawing.Point(68, 362);
@@ -708,10 +796,12 @@
 			this.custButton47.Text = "x\r\n X";
 			this.custButton47.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton47.UseVisualStyleBackColor = false;
+			this.custButton47.Click += new System.EventHandler(this.custButton47_Click);
 			// 
 			// custButton48
 			// 
 			this.custButton48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton48.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton48.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton48.ForeColor = System.Drawing.Color.White;
 			this.custButton48.Location = new System.Drawing.Point(10, 362);
@@ -721,10 +811,12 @@
 			this.custButton48.Text = "z\r\n Z";
 			this.custButton48.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.custButton48.UseVisualStyleBackColor = false;
+			this.custButton48.Click += new System.EventHandler(this.custButton48_Click);
 			// 
 			// custButton49
 			// 
 			this.custButton49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton49.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton49.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton49.ForeColor = System.Drawing.Color.White;
 			this.custButton49.Location = new System.Drawing.Point(10, 430);
@@ -737,6 +829,7 @@
 			// custButton50
 			// 
 			this.custButton50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton50.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton50.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton50.ForeColor = System.Drawing.Color.White;
 			this.custButton50.Location = new System.Drawing.Point(128, 430);
@@ -749,6 +842,7 @@
 			// custButton51
 			// 
 			this.custButton51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton51.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton51.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton51.ForeColor = System.Drawing.Color.White;
 			this.custButton51.Location = new System.Drawing.Point(248, 430);
@@ -757,10 +851,12 @@
 			this.custButton51.TabIndex = 141;
 			this.custButton51.Text = "SPACE";
 			this.custButton51.UseVisualStyleBackColor = false;
+			this.custButton51.Click += new System.EventHandler(this.custButton51_Click);
 			// 
 			// custButton52
 			// 
 			this.custButton52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton52.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton52.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton52.ForeColor = System.Drawing.Color.White;
 			this.custButton52.Location = new System.Drawing.Point(488, 430);
@@ -773,6 +869,7 @@
 			// custButton53
 			// 
 			this.custButton53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton53.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton53.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton53.ForeColor = System.Drawing.Color.White;
 			this.custButton53.Location = new System.Drawing.Point(548, 430);
@@ -785,6 +882,7 @@
 			// custButton54
 			// 
 			this.custButton54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(236)))));
+			this.custButton54.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.custButton54.Font = new System.Drawing.Font("宋体", 12F);
 			this.custButton54.ForeColor = System.Drawing.Color.White;
 			this.custButton54.Location = new System.Drawing.Point(608, 430);
